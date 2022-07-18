@@ -18,6 +18,7 @@
 /*  Background and Styling for Reviews  */
 .review {
 	border-radius: 15px;
+	box-shadow: 6px 6px 2px 4px rgba(76, 149, 108, .5);
 	min-height: 20vh;
 	min-height: 20vh;
 	display: flex;
@@ -27,6 +28,7 @@
 
 .review:hover {
 	font-weight: 400;
+	border-bottom: 5px solid rgba(76, 149, 108, .5);
 }
 
 /* Caption text */
