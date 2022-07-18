@@ -305,10 +305,6 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
-	.font-test {
-		font-family: 'Comfortaa', cursive;
-	}
-
 	.bold {
 		font-size: 1.75rem;
 		font-weight: 700;
