@@ -28,10 +28,11 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="https://www.instagram.com/christyisnotmolly"><i class="fa-brands fa-instagram"></i></a></li>
-							<li class="current"><a href="index.html">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="classes.html">Offerings</a></li>
+							<li class="nav-links"><a href="https://www.instagram.com/christyisnotmolly"><i class="fa-brands fa-instagram"></i></a></li>
+							<li class="nav-links "><a href="index.html">Home</a></li>
+							<li class="nav-links"><a href="#about">About</a></li>
+							<li class="nav-links"><a href="classes.html">Offerings</a></li>
+							<li class="nav-links"><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
 
@@ -110,7 +111,8 @@
 						</section>
 
 				<!-- Section -->
-					<section class="main style2" id="newsletter">
+					<div class="main style2">
+					<section id="newsletter">
 						<header class="small">
 							<h2>Subscribe to My Newsletter</h2>
 							<p>Be the first to learn about my latest classes and workshops and receive subscriber-exclusive content.</p>
@@ -119,9 +121,32 @@
 								<button type="submit" class="primary">Sign Up</button>
 							</form>
 						</header>
-						</div>
 						</section>
-
+<!-- Section -->
+					<section id="contact">
+						<header class="small">
+							<h2>Contact Me</h2>
+<!--							<p>Elit dignissim nullam sagittis faucibus dui. Morbi vel nibh mauris. Sed convallis, odio ac posuere bibendum, odio elit bibendum magna, eu tempor diam nulla nec felis. Cras convallis tellus ac justo.</p>-->
+						</header>
+						<div class="inner special medium">
+							<form action="netlify" method="post">
+								<div class="fields">
+									<div class="field half">
+										<input name="name" id="name" placeholder="Name" type="text" />
+									</div>
+									<div class="field half">
+										<input name="email" id="email" placeholder="Email" type="email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" rows="8" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<ul class="actions special">
+									<li><input value="Send Message" class="button next" type="submit" /></li>
+								</ul>
+							</form>
+						</div>
+					</section>
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">

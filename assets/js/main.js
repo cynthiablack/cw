@@ -1,8 +1,6 @@
-/*
-	Vortex by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
+
+/*** Slide Function for Reviews ***/
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
