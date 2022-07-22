@@ -3402,7 +3402,7 @@ input[type="radio"]:focus + label:before {
 			overflow: hidden;
 			z-index: -1;
 		}
-
+/*
 			.banner .image:before {
 				-moz-transition: opacity 1.3125s ease-in-out;
 				-webkit-transition: opacity 1.3125s ease-in-out;
@@ -3416,7 +3416,7 @@ input[type="radio"]:focus + label:before {
 				width: 100%;
 				height: 100%;
 				background-image: url("../../images/overlay.png"), url("../../images/overlay.png"), linear-gradient(45deg, #2C6E49, #F7EDE2/*#71aca0, #efc278*/);
-				opacity: 0.7;
+/*				opacity: 0.7;
 				z-index: 1;
 			}
 
@@ -3433,17 +3433,17 @@ input[type="radio"]:focus + label:before {
 				width: 100%;
 				height: 100%;
 				background-image: url("../../images/overlay.png"), url("../../images/overlay.png"), linear-gradient(45deg, #84A59D, #F7EDE2/*#5c5c5c, #92856f*/);
-				opacity: 0;
+/*				opacity: 0;
 				z-index: 1;
 			}
-
+/*
 			.banner .image img {
 				-moz-transition: -moz-transform 2.1875s ease-out, -moz-filter 2.1875s ease-out;
 				-webkit-transition: -webkit-transform 2.1875s ease-out, -webkit-filter 2.1875s ease-out;
 				-ms-transition: -ms-transform 2.1875s ease-out, -ms-filter 2.1875s ease-out;
 				transition: transform 2.1875s ease-out, filter 2.1875s ease-out;
 			}
-
+*/
 		.banner h1, .banner .actions {
 			-moz-transition: opacity 0.875s ease-out, -moz-transform 0.875s ease-out, -moz-filter 0.875s ease-out;
 			-webkit-transition: opacity 0.875s ease-out, -webkit-transform 0.875s ease-out, -webkit-filter 0.875s ease-out;
@@ -3454,7 +3454,7 @@ input[type="radio"]:focus + label:before {
 			-ms-transition-delay: 1.99609s;
 			transition-delay: 1.99609s;
 		}
-
+/*
 		body.is-preload .banner .image:before {
 			opacity: 1;
 		}
@@ -3462,12 +3462,12 @@ input[type="radio"]:focus + label:before {
 		body.is-preload .banner .image:after {
 			opacity: 1;
 		}
-
+*/
 		body.is-preload .banner .image img {
-			-moz-filter: blur(1.5rem);
+/*			-moz-filter: blur(1.5rem);
 			-webkit-filter: blur(1.5rem);
 			-ms-filter: blur(1.5rem);
-			filter: blur(1.5rem);
+			filter: blur(1.5rem);*/
 			-moz-transform: translateX(-1.5rem) scale(1.125);
 			-webkit-transform: translateX(-1.5rem) scale(1.125);
 			-ms-transform: translateX(-1.5rem) scale(1.125);
@@ -3479,10 +3479,10 @@ input[type="radio"]:focus + label:before {
 			-webkit-transform: scale(0.985);
 			-ms-transform: scale(0.985);
 			transform: scale(0.985);
-			-moz-filter: blur(0.1rem);
+/*			-moz-filter: blur(0.1rem);
 			-webkit-filter: blur(0.1rem);
 			-ms-filter: blur(0.1rem);
-			filter: blur(0.1rem);
+			filter: blur(0.1rem);*/
 			opacity: 0;
 		}
 
