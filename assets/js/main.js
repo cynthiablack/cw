@@ -1,4 +1,3 @@
-
 /*** Slide Function for Reviews ***/
 
 let slideIndex = 1;
@@ -30,6 +29,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+/* Template Functions */
 
 (function($) {
 
