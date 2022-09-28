@@ -3,6 +3,17 @@
 
 * {box-sizing:border-box}
 
+.small-bold {
+	font-size: 1.5ch;
+	font-weight: 600;
+}
+
+.square-embed-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 /* 2-column Layout for Outcomes sections */
 #outcomes {
 	padding: 10px 0 0 10px;
