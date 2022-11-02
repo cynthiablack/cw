@@ -8,11 +8,51 @@
 	font-weight: 600;
 }
 
-.square-embed-wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+/* Square Embed */
+	.square-button {
+		display: inline-block;
+		font-size: 18px;
+		line-height: 48px;
+		height: 48px;
+		color: #ffffff;
+		min-width: 212px;
+		background-color:  #6e9e64;
+		text-align: center;
+		box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+		border-radius: 6px;
+	}
+
+	.square-card {
+		overflow: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+		width: 259px;
+		background: #FFFFFF;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
+		border-radius: 10px;
+		font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
+	}
+
+	.square-embed-wrapper {
+		border: 1px solid #585858;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.square-heading {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	.square-pricing {
+		font-size: 18px;
+		line-height: 20px;
+		font-weight: 600;
+	}
 
 /* 2-column Layout for Outcomes sections */
 #outcomes {
